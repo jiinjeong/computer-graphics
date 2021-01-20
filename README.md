@@ -9,8 +9,10 @@ Includes simple and parametric shapes, patterns, animation, selection, position 
 
 **Project 2: 2D-game** <br>
 A simple 2D-game that meshes Gem Swap and basics of Space Invaders.
+![Screenshot](GemVader.gif)
 
 **Project 3: 3D-basics**
+![Screenshot](3dBasic.gif)
 
 **Project 4: 3D-ray** <br>
 A ray tracer program that renders a beach scene.
