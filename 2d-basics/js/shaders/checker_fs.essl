@@ -1,0 +1,28 @@
+/******************************************************************************/
+/* FILE   : checker_fs.essl                                                   */
+/* AUTHOR : Henry Cohen                                                       */
+/* DESC   : Q3 (Fragment shader for checkered pattern)                        */
+/*                                                                            */
+/******************************************************************************/
+
+Shader.source[document.currentScript.src.split('js/shaders/')[1]] = `#version 300 es 
+  precision highp float;
+
+  in vec4 color;
+  in vec4 modelPosition;
+  out vec4 fragmentColor;
+  uniform vec4 checkerColor;
+  uniform vec4 solidColor;
+  uniform float fragmentWidth;
+
+  void main(void) {
+    if ((fract(2.0*modelPosition.x) < fragmentWidth) && !(fract(2.0*modelPosition.y) < fragmentWidth)){
+      fragmentColor = checkerColor;
+    } else if (!(fract(2.0*modelPosition.x) < fragmentWidth) && (fract(2.0*modelPosition.y) < fragmentWidth)){
+      fragmentColor = checkerColor;
+    } 
+    else {
+      fragmentColor = solidColor;
+    }
+  }
+`;

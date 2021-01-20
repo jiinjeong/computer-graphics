@@ -1,0 +1,26 @@
+/******************************************************************************/
+/* FILE   : stripe_fs.essl                                                    */
+/* AUTHOR : Jiin Jeong                                                        */
+/* DESC   : Q3 (Fragment shader for striped pattern)                          */
+/*                                                                            */
+/******************************************************************************/
+
+Shader.source[document.currentScript.src.split('js/shaders/')[1]] = `#version 300 es 
+  precision highp float;
+
+  in vec4 color;
+  in vec4 modelPosition;
+  out vec4 fragmentColor;
+  uniform vec4 solidColor;
+  uniform vec4 stripeColor;
+  uniform float fragmentWidth;
+
+  void main(void) {
+    // 45 Degrees stripe.
+    if (fract(modelPosition.x + modelPosition.y) < fragmentWidth){
+      fragmentColor = stripeColor;
+    } else {
+      fragmentColor = solidColor;
+    }
+  }
+`;

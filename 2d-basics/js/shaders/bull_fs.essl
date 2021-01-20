@@ -1,0 +1,25 @@
+/******************************************************************************/
+/* FILE   : bull_fs.essl                                                      */
+/* AUTHOR : Ethan Sorkin                                                      */
+/* DESC   : Q3 (Fragment shader for bullseye pattern                          */
+/*                                                                            */
+/******************************************************************************/
+
+Shader.source[document.currentScript.src.split('js/shaders/')[1]] = `#version 300 es 
+  precision highp float;
+
+  in vec4 color;
+  in vec4 modelPosition;
+  out vec4 fragmentColor;
+  uniform vec4 solidColor;
+  uniform vec4 bullColor;
+  uniform float fragmentWidth;
+
+  void main(void) {
+    if (fract((1.0 / fragmentWidth) * sqrt(modelPosition.x*modelPosition.x + modelPosition.y*modelPosition.y)) < 0.5){
+      fragmentColor = bullColor;
+    } else {
+      fragmentColor = solidColor;
+    }
+  }
+`;

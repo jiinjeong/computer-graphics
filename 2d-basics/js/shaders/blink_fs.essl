@@ -1,0 +1,25 @@
+/******************************************************************************/
+/* FILE   : blink_fs.essl                                                     */
+/* AUTHOR : Henry Cohen                                                       */
+/* DESC   : Q4 (Fragment shader for blink animation                           */
+/*                                                                            */
+/******************************************************************************/
+
+Shader.source[document.currentScript.src.split('js/shaders/')[1]] = `#version 300 es 
+  precision highp float;
+
+  in vec4 color;
+  out vec4 fragmentColor;
+  uniform vec4 solidColor;
+  uniform vec4 blinkColor;
+  uniform float time;
+
+  void main(void) {
+    if (fract(time) < 0.5){
+    fragmentColor = blinkColor;
+    }
+    else{
+    fragmentColor = solidColor;
+    } 
+  } 
+`;
