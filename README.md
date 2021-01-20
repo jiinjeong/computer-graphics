@@ -8,12 +8,13 @@ Includes simple and parametric shapes, patterns, animation, selection, position 
 ![Screenshot](BasicObjects.gif)
 
 **Project 2: 2D-game** <br>
-A simple 2D-game that meshes Gem Swap and basics of Space Invaders.
+A simple 2D-game that meshes Gem Swap and basics of Space Invaders. Includes mouse and key action, movable and accelerable 2D avatar object, and orthocam.
 ![Screenshot](GemVader.gif)
 
-**Project 3: 3D-basics**
+**Project 3: 3D-basics** <br>
+Includes movable 3D avatar object, helicam, texturing, lighting, and various shading.
 ![Screenshot](3dBasic.gif)
 
 **Project 4: 3D-ray** <br>
-A ray tracer program that renders a beach scene.
+A ray tracer program that renders a beach scene. Includes shadows, reflections, and ripple effects.
 ![Screenshot](Island.png)
