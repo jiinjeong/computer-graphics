@@ -1,0 +1,18 @@
+Shader.source[document.currentScript.src.split('js/shaders/')[1]] = `#version 300 es
+precision highp float;
+
+out vec4 fragmentColor;
+in vec2 texCoord; // pass this on from vertex shader
+in vec4 worldPosition;
+in vec4 worldNormal;
+
+// we need to bind texture to this
+uniform sampler2D colorTexture;
+
+void main(void) {
+  vec3 lightDirection = vec3(1, 1, 1);
+  vec4 surfaceColor = texture(colorTexture, texCoord);
+  // if you make it vec4, you can do texCoord.xy to get just the two.
+  fragmentColor = vec4((surfaceColor.xyz * dot(worldNormal.xyz, lightDirection), 1)).bgra;
+}
+`;

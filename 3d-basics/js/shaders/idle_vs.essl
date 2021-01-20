@@ -1,0 +1,25 @@
+// Vertex shader.
+
+// Vertex position: starts the transformation chain (3 vertices - triangle)
+// Will be processed by vertex shader.
+
+// GL position: Output of vertex position that will be used by the rastorizer
+// For a single vertex of a triangle.
+
+// Triangle position (uniform): Same for all vertices.
+
+Shader.source[document.currentScript.src.split('js/shaders/')[1]] = `#version 300 es
+  in vec4 vertexPosition;
+  in vec4 vertexColor;  // Attribute from VB, match Program.js
+  out vec4 color;  // Passed to FS.
+  // uniform vec3 trianglePosition;
+  uniform mat4 modelViewProjMatrix;
+
+  void main(void) {
+    color = vertexColor;
+    gl_Position = vertexPosition * modelViewProjMatrix;
+    // gl_Position = vertexPosition;
+    // gl_Position.xyz *= triangleScale;  // Order!
+    // gl_Position.xyz += trianglePosition;
+  }
+`;
