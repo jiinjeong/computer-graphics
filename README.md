@@ -3,5 +3,12 @@
 
 To run the program, open **index.html**. You also need to unzip the WebGLMath folder and allow access from files from your browser. (For Chrome, the Terminal command is `open /Applications/Google\ Chrome.app --args --allow-file-access-from-files`)
 
-Project 1: 2D-basics
+**Project 1: 2D-basics**
 ![Screenshot](BasicObjects.gif)
+
+**Project 2: 2D-game**
+
+**Project 3: 3D-basics**
+
+**Project 4: 3D-ray**
+![Screenshot](Island.png)
