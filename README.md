@@ -4,7 +4,8 @@
 * **Special thanks**: Professor Szecsi (AIT/BME) who provided the starter code and guidance.
 
 ## Project 1: 2D-basics <br>
-**Teammates**: Henry Cohen, Ethan Sorkin <br><br>
+* **Teammates**: Henry Cohen, Ethan Sorkin <br><br>
+
 Includes simple and parametric shapes, patterns, animation, selection, position and orientation manipulation, editing, and view. <br><br>
 ![Screenshot](BasicObjects.gif)
 
