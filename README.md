@@ -1,7 +1,7 @@
 # computer-graphics
 2D and 3D computer graphics assignments using WebGL/JavaScript (Feb - June 2019)
 
-To run the program, open **index.html**. You also need to unzip the WebGLMath folder and allow access from files from your browser. (For Chrome, the Terminal command is `open /Applications/Google\ Chrome.app --args --allow-file-access-from-files`). Some starter code is provided by Professor Szecsi from BME.
+To run the program, open **index.html**. You also need to unzip the WebGLMath folder and allow access from files from your browser. (For Chrome, the Terminal command is `open /Applications/Google\ Chrome.app --args --allow-file-access-from-files`). Special thanks to Professor Szecsi (AIT) who provided the starter code and guidance.
 
 **Project 1: 2D-basics** <br>
 Includes simple and parametric shapes, patterns, animation, selection, position and orientation manipulation, editing, and view.
