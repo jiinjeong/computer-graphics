@@ -13,8 +13,8 @@ Includes simple and parametric shapes, patterns, animation, selection, position 
   * A: Rotate Left, D: Rotate Right, Z: Zoom In, X: Zoom Out
   * Mouse Pick (+ M: Multiple select), Mouse Drag, S: Tab Selection, Q: Queue
   * B: Delete, E + Click: Add Lamp, C + Click: Add Chair
-  * Y: Link parents/children, U: Unlink parents/children
-<br><br>
+  * Y: Link parents/children, U: Unlink parents/children <br><br>
+
 ![Screenshot](BasicObjects.gif)
 
 ## Project 2: 2D-game <br>
