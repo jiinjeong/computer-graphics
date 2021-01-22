@@ -30,7 +30,12 @@ A simple 2D-game that meshes Gem Swap and basics of Space Invaders. Includes mou
 
 ## Project 3: 3D-basics <br>
 Includes movable 3D avatar object, helicam, texturing, lighting, and various shading.
-* **Code**: [3d-basics](https://github.com/jiinjeong/computer-graphics/tree/main/3d-basics) <br><br>
+* **Code**: [3d-basics](https://github.com/jiinjeong/computer-graphics/tree/main/3d-basics)
+* **Key Dictionary**:
+  * Camera: W (Zoom in), S (Zoom out), D (Left), A (Right), E (Up), Q (Down)
+  * Car: Arrow Up (Forward), Arrow Back (Backward), Arrow Left (Left), Arrow Right (Right)
+  * Pink Slowpoke: F (Forward), B (Backward), L (Left), R (Right) <br><br>
+
 ![Screenshot](3dBasic.gif)
 
 ## Project 4: 3D-ray <br>
