@@ -19,7 +19,13 @@ Includes simple and parametric shapes, patterns, animation, selection, position 
 
 ## Project 2: 2D-game <br>
 A simple 2D-game that meshes Gem Swap and basics of Space Invaders. Includes mouse and key action, movable and accelerable 2D avatar object, and orthocam.
-* **Code**: [2d-game](https://github.com/jiinjeong/computer-graphics/tree/main/2d-game) <br><br>
+* **Code**: [2d-game](https://github.com/jiinjeong/computer-graphics/tree/main/2d-game)
+* **Key Dictionary**: 
+  * A: Turn table (Clockwise), D: Turn table (Counter-clockwise)
+  * B + Click: Bomb, Q: Quake 
+  * UP: Move forward, DOWN: Move backward, LEFT: Move left, RIGHT: Move right
+  * L: Tilt left, R: Tilt right <br><br>
+
 ![Screenshot](GemVader.gif)
 
 ## Project 3: 3D-basics <br>
