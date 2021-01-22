@@ -6,7 +6,15 @@
 ## Project 1: 2D-basics <br>
 Includes simple and parametric shapes, patterns, animation, selection, position and orientation manipulation, editing, and view.
 * **Code**: [2d-basics](https://github.com/jiinjeong/computer-graphics/tree/main/2d-basics)
-* **Teammates**: Henry Cohen, Ethan Sorkin <br><br>
+* **Teammates**: Henry Cohen, Ethan Sorkin
+* **Key Dictionary**: 
+  * LEFT: Move left, RIGHT: Move right, UP: Move up, DOWN: Move down, SPACE: Duplicate
+  * I: Scroll Up, K: Scroll Down, J: Scroll Left, L: Scroll Right
+  * A: Rotate Left, D: Rotate Right, Z: Zoom In, X: Zoom Out
+  * Mouse Pick (+ M: Multiple select), Mouse Drag, S: Tab Selection, Q: Queue
+  * B: Delete, E + Click: Add Lamp, C + Click: Add Chair
+  * Y: Link parents/children, U: Unlink parents/children
+<br><br>
 ![Screenshot](BasicObjects.gif)
 
 ## Project 2: 2D-game <br>
